@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+:root {
+    --font01: Verdana, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body {
+    height: 100%vh;
+    background-color: gray;
+    font-family: var(--font01);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header p {
+    padding-bottom: 50px;
+}
+header a, footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+.normal {
+    background-color: white;
+    color: black;
+}
+.imagem {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+    background-size: cover;
+}
+section.imagem p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+#img01 {
+    background-image: url("../imagens/background001.jpg");
+}
+#img02 {
+    background-image: url("../imagens/background002.jpg");
+}
+section p {
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
